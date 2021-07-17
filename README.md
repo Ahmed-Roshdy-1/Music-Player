@@ -3,7 +3,7 @@
 
 ##
 
-# [Try the website fome here](https://ahmed-roshdy-1.github.io/Music-Player/Index.html)
+# [Try the website fome here](https://ahmed-roshdy-1.github.io/Music-Player/Index)
 
 ##
 
