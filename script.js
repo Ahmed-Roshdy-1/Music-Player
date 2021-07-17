@@ -10,10 +10,10 @@ const cover = document.querySelector('#cover')
 
 
 // Song tites
-const songs = ['Play With Fire', 'Someone You Loved', 'Hold On', 'Perfect', 'Feeling Good']
+const songs = ['Play With Fire', 'Someone You Loved', 'Hold On', 'Fight Song', 'Perfect', 'Feeling Good']
 
 // keep track of songs 
-let songIndex = 4
+let songIndex = 5
 
 // Initially load song info DOM
 loadSong(songs[songIndex])
