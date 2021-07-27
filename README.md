@@ -12,5 +12,6 @@
 
 ##   ✔✔  Create UI for music player including spinning image and song detail popup
 ##   ✔✔  Add play and pause functionality
+##   ✔✔  Loop the same Song 
 ##   ✔✔  Switch songs
 ##   ✔✔  Progress bar
