@@ -106,6 +106,10 @@ body {
   outline: 0;
 }
 
+#autoplay-light {
+  color: rgba(248, 92, 80, 6);
+}
+
 .music-info {
   background-color: rgba(255, 189, 179, 0.842);
   box-shadow: 0 20px 20px 0 rgba(255, 0, 131, 0.5);

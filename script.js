@@ -7,6 +7,9 @@ const progress = document.querySelector(".progress");
 const progressContainer = document.querySelector(".progress-container");
 const title = document.querySelector("#title");
 const cover = document.querySelector("#cover");
+const autoPlayBtn = document.querySelector("#autoplay");
+
+let auto_play = 0;
 
 // Song tites
 const songs = [
@@ -17,6 +20,8 @@ const songs = [
   "Perfect",
   "Feeling Good",
 ];
+
+console.log(audio.autoplay);
 
 // keep track of songs
 let songIndex = 5;
@@ -85,6 +90,23 @@ function setProgress(e) {
   audio.currentTime = (clickX / width) * duration;
 }
 
+// autoPlay Song for the same song
+autoPlayBtn.addEventListener("click", () => {
+  if (auto_play == 1) {
+    //flag
+    auto_play = 0;
+    autoPlayBtn.id = "autoplay";
+    audio.removeAttribute("loop");
+    console.log(auto_play);
+  } else {
+    auto_play = 1;
+    if (auto_play == 1) {
+      autoPlayBtn.id = "autoplay-light";
+      audio.setAttribute("loop", null);
+    }
+  }
+});
+
 // Event Listeners
 playBtn.addEventListener("click", () => {
   const isPlaying = musicContainer.classList.contains("play");
@@ -106,5 +128,5 @@ audio.addEventListener("timeupdate", updateProgress);
 // Click on progress bar
 progressContainer.addEventListener("click", setProgress);
 
-// to play the next song
+// play the next song
 audio.addEventListener("ended", nextSong);
