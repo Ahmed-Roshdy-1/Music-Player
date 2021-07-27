@@ -1,9 +1,8 @@
-# Music-Player
+# Music-Player[ See a live demo of the project](https://ahmed-roshdy-1.github.io/Music-Player/Index)
 ## This App is beautiful UI to play music stored in the "music folder" using the HTML5 audio API
 
 ##
 
-# [Try the website fome here](https://ahmed-roshdy-1.github.io/Music-Player/Index)
 
 ##
 
