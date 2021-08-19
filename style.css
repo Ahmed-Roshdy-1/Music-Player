@@ -12,11 +12,8 @@ body {
   height: 100vh;
   margin: 0;
   font-family: "Times New Roman", Times, serif;
-  background-image: linear-gradient(
-    0deg,
-    rgb(247, 247, 247) 23.8%,
-    rgb(252, 221, 221) 92%
-  );
+  background-image: url(images/Backgound.jfif);
+  background-position: center center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -111,7 +108,7 @@ body {
 }
 
 .music-info {
-  background-color: rgba(255, 189, 179, 0.842);
+  background-color: rgb(255, 189, 179);
   box-shadow: 0 20px 20px 0 rgba(255, 0, 131, 0.5);
   border-radius: 50px;
   position: absolute;
