@@ -12,16 +12,7 @@ const autoPlayBtn = document.querySelector("#autoplay");
 let auto_play = 0;
 
 // Song tites
-const songs = [
-  "Play With Fire",
-  "Someone You Loved",
-  "Hold On",
-  "Fight Song",
-  "Perfect",
-  "Feeling Good",
-];
-
-console.log(audio.autoplay);
+const songs = ["Play With Fire", "Someone You Loved", "Hold On", "Fight Song", "Perfect", "Feeling Good"];
 
 // keep track of songs
 let songIndex = 5;

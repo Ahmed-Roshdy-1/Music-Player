@@ -11,7 +11,7 @@ h1 {
 body {
   height: 100vh;
   margin: 0;
-  font-family: "Times New Roman", Times, serif;
+  font-family: serif, "Times New Roman", Times;
   background-image: url(images/Backgound.jfif);
   background-position: center center;
   display: flex;
@@ -108,8 +108,8 @@ body {
 }
 
 .music-info {
-  background-color: rgb(255, 189, 179);
-  box-shadow: 0 20px 20px 0 rgba(255, 0, 131, 0.5);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 20px 0px 20px 10px rgba(248, 92, 80, 6);
   border-radius: 50px;
   position: absolute;
   align-self: center;
@@ -124,9 +124,8 @@ body {
 .music-info h4 {
   margin: 0;
   position: relative;
-  font-size: 20px;
-  color: #ff006e;
-  font-weight: bold;
+  font-size: 1.5rem;
+  color: rgba(248, 92, 80);
   justify-content: center;
 }
 
@@ -145,7 +144,7 @@ body {
 }
 
 .progress {
-  background-color: #ff1a56;
+  background-color: rgba(248, 92, 80, 6);
   border-radius: 5px;
   height: 100%;
   width: 0%;
